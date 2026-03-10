@@ -5,20 +5,20 @@
   --color-warm-white: #faf6ee;
 
   /* Brand colors */
-  --color-primary: #5C8001;      /* Olive green */
-  --color-secondary: #2C3D01;    /* Dark olive green */
-  --color-accent-gold: #FFB30F;  /* Bright yellow */
-  --color-accent-brown: #4C2E05; /* Dark brown */
-  --color-accent-blue: #00679A;  /* Deep blue */
+  --color-primary: #5c8001; /* Olive green */
+  --color-secondary: #2c3d01; /* Dark olive green */
+  --color-accent-gold: #ffb30f; /* Bright yellow */
+  --color-accent-brown: #4c2e05; /* Dark brown */
+  --color-accent-blue: #00679a; /* Deep blue */
 
   /* Soft pastels (derived from brand colors) */
-  --color-blush: #d8e4a8;     /* light olive */
-  --color-mint: #e4ecc8;      /* lighter olive */
-  --color-butter: #faecc0;    /* light from gold */
+  --color-blush: #d8e4a8; /* light olive */
+  --color-mint: #e4ecc8; /* lighter olive */
+  --color-butter: #faecc0; /* light from gold */
 
   /* Ink / outline */
-  --color-ink: #4C2E05;
-  --color-ink-soft: #6B4A1A;
+  --color-ink: #4c2e05;
+  --color-ink-soft: #6b4a1a;
 
   --font-display: "Playfair Display", Georgia, serif;
   --font-body: "Lato", system-ui, sans-serif;
@@ -43,7 +43,9 @@
 }
 
 /* ── Base ── */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -61,7 +63,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: var(--font-display);
 }
 
@@ -367,7 +372,9 @@ ul {
   letter-spacing: 0.05em;
   text-decoration: none;
   box-shadow: 3px 3px 0 var(--color-ink);
-  transition: transform 0.15s, box-shadow 0.15s;
+  transition:
+    transform 0.15s,
+    box-shadow 0.15s;
 }
 
 .btn:hover {
@@ -484,21 +491,47 @@ ul {
 /* ── Color utilities ── */
 
 /* Text colors */
-.text-ink        { color: var(--color-ink); }
-.text-body       { color: var(--color-ink-soft); }
-.text-green-dark { color: var(--color-secondary); }
-.text-green      { color: var(--color-primary); }
-.text-blue       { color: var(--color-accent-blue); }
+.text-ink {
+  color: var(--color-ink);
+}
+.text-body {
+  color: var(--color-ink-soft);
+}
+.text-green-dark {
+  color: var(--color-secondary);
+}
+.text-green {
+  color: var(--color-primary);
+}
+.text-blue {
+  color: var(--color-accent-blue);
+}
 
 /* Background colors */
-.bg-cream      { background-color: var(--color-cream); }
-.bg-green      { background-color: var(--color-primary); }
-.bg-green-dark { background-color: var(--color-secondary); }
-.bg-gold       { background-color: var(--color-accent-gold); }
-.bg-blue       { background-color: var(--color-accent-blue); }
-.bg-blush      { background-color: var(--color-blush); }
-.bg-butter     { background-color: var(--color-butter); }
-.bg-mint       { background-color: var(--color-mint); }
+.bg-cream {
+  background-color: var(--color-cream);
+}
+.bg-green {
+  background-color: var(--color-primary);
+}
+.bg-green-dark {
+  background-color: var(--color-secondary);
+}
+.bg-gold {
+  background-color: var(--color-accent-gold);
+}
+.bg-blue {
+  background-color: var(--color-accent-blue);
+}
+.bg-blush {
+  background-color: var(--color-blush);
+}
+.bg-butter {
+  background-color: var(--color-butter);
+}
+.bg-mint {
+  background-color: var(--color-mint);
+}
 
 /* ── Typography ── */
 
@@ -651,7 +684,6 @@ ul {
   color: var(--color-accent-gold);
 }
 
-
 /* Contact card text */
 .contact-name {
   font-weight: 700;
@@ -690,7 +722,9 @@ ul {
 }
 
 /* Time badge variants */
-.time-badge-green-dark { background-color: var(--color-secondary); }
+.time-badge-green-dark {
+  background-color: var(--color-secondary);
+}
 
 /* CTA section */
 .cta-section {
@@ -769,7 +803,6 @@ ul {
   margin-top: 3rem;
 }
 
-
 .btn-compact {
   padding: 10px 24px;
 }
@@ -779,15 +812,31 @@ ul {
 }
 
 /* Spacing utilities */
-.mb-0  { margin-bottom: 0; }
-.mb-xs { margin-bottom: 0.5rem; }
-.mb-sm { margin-bottom: 0.75rem; }
-.mb-md { margin-bottom: 1rem; }
-.mb-lg { margin-bottom: 1.5rem; }
-.mb-xl { margin-bottom: 2rem; }
-.mb-2xl { margin-bottom: 3.5rem; }
+.mb-0 {
+  margin-bottom: 0;
+}
+.mb-xs {
+  margin-bottom: 0.5rem;
+}
+.mb-sm {
+  margin-bottom: 0.75rem;
+}
+.mb-md {
+  margin-bottom: 1rem;
+}
+.mb-lg {
+  margin-bottom: 1.5rem;
+}
+.mb-xl {
+  margin-bottom: 2rem;
+}
+.mb-2xl {
+  margin-bottom: 3.5rem;
+}
 
-.section-pad { padding: 4rem 1.5rem; }
+.section-pad {
+  padding: 4rem 1.5rem;
+}
 
 /* ── Utility ── */
 .text-center {
@@ -818,13 +867,27 @@ ul {
   transition: transform 0.2s;
 }
 
-.product-card:nth-child(1) { transform: rotate(-2deg); }
-.product-card:nth-child(2) { transform: rotate(1deg); }
-.product-card:nth-child(3) { transform: rotate(-1deg); }
-.product-card:nth-child(4) { transform: rotate(2deg); }
-.product-card:nth-child(5) { transform: rotate(-1.5deg); }
-.product-card:nth-child(6) { transform: rotate(1.5deg); }
-.product-card:nth-child(7) { transform: rotate(-2deg); }
+.product-card:nth-child(1) {
+  transform: rotate(-2deg);
+}
+.product-card:nth-child(2) {
+  transform: rotate(1deg);
+}
+.product-card:nth-child(3) {
+  transform: rotate(-1deg);
+}
+.product-card:nth-child(4) {
+  transform: rotate(2deg);
+}
+.product-card:nth-child(5) {
+  transform: rotate(-1.5deg);
+}
+.product-card:nth-child(6) {
+  transform: rotate(1.5deg);
+}
+.product-card:nth-child(7) {
+  transform: rotate(-2deg);
+}
 
 .product-card:hover {
   transform: rotate(0deg);
@@ -874,7 +937,7 @@ ul {
   justify-self: start;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 440px) {
   .market-card-inner {
     grid-template-columns: minmax(0, 1fr) auto;
     align-items: start;
@@ -899,7 +962,7 @@ ul {
 }
 
 .contact-block-info {
-  border-bottom: 1.5px solid rgba(0,0,0,0.12);
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.12);
   padding-bottom: 1.75rem;
 }
 
@@ -936,4 +999,3 @@ ul {
   flex-direction: column;
   gap: 1.25rem;
 }
-
