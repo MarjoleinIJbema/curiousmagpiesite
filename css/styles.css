@@ -874,7 +874,7 @@ ul {
   justify-self: start;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 640px) {
   .market-card-inner {
     grid-template-columns: minmax(0, 1fr) auto;
     align-items: start;
