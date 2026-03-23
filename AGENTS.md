@@ -6,6 +6,10 @@ When creating markdown files that should not be public or committed to the repos
 
 This site runs on `curiousmagpie.nl`.
 
+## Image Format Rule
+
+For website photos, always place the source image in `images/` and generate a `-resized.webp` version for use in the HTML. Keep the optimized WebP at `1200x1200` for square product images so existing card layouts remain consistent.
+
 ## Optional Feature Guides
 
 When users request features beyond the base template, check for available recipes in `.kilocode/recipes/`.
