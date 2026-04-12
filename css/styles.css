@@ -999,3 +999,169 @@ ul {
   flex-direction: column;
   gap: 1.25rem;
 }
+
+/* ── Nav dropdown ── */
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 13rem;
+  padding: 0.75rem 0.5rem;
+  margin-top: 0.6rem;
+  background-color: var(--color-cream);
+  border: 2.5px solid var(--color-ink);
+  border-radius: 14px;
+  box-shadow: 3px 3px 0 var(--color-ink);
+  z-index: 60;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.nav-dropdown-menu::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  height: 0.6rem;
+}
+
+.nav-dropdown:hover .nav-dropdown-menu,
+.nav-dropdown:focus-within .nav-dropdown-menu {
+  display: flex;
+}
+
+.nav-dropdown-menu a {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 7px 14px;
+  border-radius: 8px;
+  color: var(--color-ink);
+  text-decoration: none;
+  transition: background-color 0.15s;
+}
+
+.nav-dropdown-menu a:hover {
+  background-color: rgba(92, 128, 1, 0.15);
+}
+
+.nav-dropdown-menu a.active {
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+/* Mobile product sub-links */
+.mobile-sub-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding-left: 1rem;
+}
+
+.mobile-sub-link {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  padding: 5px 14px;
+  border-radius: 16px;
+  border: 1.5px solid var(--color-ink);
+  background-color: transparent;
+  color: var(--color-ink);
+  display: inline-block;
+  width: fit-content;
+  text-decoration: none;
+  transition: background-color 0.15s;
+}
+
+.mobile-sub-link:hover {
+  background-color: rgba(92, 128, 1, 0.15);
+}
+
+.mobile-sub-link.active {
+  background-color: var(--color-primary);
+  color: #fdf8f0;
+}
+
+/* ── Clickable card link ── */
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.2s;
+}
+
+.card-link:hover .card {
+  box-shadow: 6px 6px 0 var(--color-ink);
+}
+
+.card-link:hover .card-title,
+.card-link:hover .card-title-sm {
+  color: var(--color-primary);
+}
+
+/* ── Product detail page ── */
+.product-detail {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+@media (min-width: 768px) {
+  .product-detail {
+    grid-template-columns: 1fr 1fr;
+    gap: 3.5rem;
+  }
+}
+
+.product-detail-img {
+  border: 3px solid var(--color-ink);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 4px 4px 0 var(--color-ink);
+}
+
+.product-detail-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.product-detail-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.product-detail-title {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  color: var(--color-accent-blue);
+}
+
+.product-detail-text {
+  font-size: 1rem;
+  color: var(--color-ink-soft);
+  line-height: 1.75;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.back-link:hover {
+  color: var(--color-secondary);
+}

@@ -24,7 +24,17 @@
       <nav class="desktop-nav">
         <a href="/" class="nav-link active">Home</a>
         <a href="over-mij/" class="nav-link">Over mij</a>
-        <a href="producten/" class="nav-link">Producten</a>
+        <div class="nav-dropdown">
+          <a href="producten/" class="nav-link">Producten</a>
+          <div class="nav-dropdown-menu">
+            <a href="producten/dansende-dame/">Dansende dame</a>
+            <a href="producten/slakken/">Slakken</a>
+            <a href="producten/kaartenstandaard/">Kaartenstandaard</a>
+            <a href="producten/groentelabels/">Groentelabels</a>
+            <a href="producten/bloemenkaarten/">Bloemenkaarten</a>
+            <a href="producten/bloemen/">Bloemen</a>
+          </div>
+        </div>
         <a href="agenda/" class="nav-link">Agenda</a>
         <a href="contact/" class="nav-link">Contact</a>
       </nav>
@@ -41,6 +51,14 @@
       <a href="/" class="mobile-nav-link active">Home</a>
       <a href="over-mij/" class="mobile-nav-link">Over mij</a>
       <a href="producten/" class="mobile-nav-link">Producten</a>
+      <div class="mobile-sub-links">
+        <a href="producten/dansende-dame/" class="mobile-sub-link">Dansende dame</a>
+        <a href="producten/slakken/" class="mobile-sub-link">Slakken</a>
+        <a href="producten/kaartenstandaard/" class="mobile-sub-link">Kaartenstandaard</a>
+        <a href="producten/groentelabels/" class="mobile-sub-link">Groentelabels</a>
+        <a href="producten/bloemenkaarten/" class="mobile-sub-link">Bloemenkaarten</a>
+        <a href="producten/bloemen/" class="mobile-sub-link">Bloemen</a>
+      </div>
       <a href="agenda/" class="mobile-nav-link">Agenda</a>
       <a href="contact/" class="mobile-nav-link">Contact</a>
     </div>
@@ -81,38 +99,41 @@
         </div>
 
         <div class="grid-3">
-          <!-- Product 1 -->
-          <div class="card">
-            <div class="card-img-wrapper aspect-square">
-              <img src="images/dansende dames-resized.webp" alt="Dansende vrouwenfiguur van keramiek" class="card-img" loading="lazy">
+          <a href="producten/dansende-dame/" class="card-link">
+            <div class="card">
+              <div class="card-img-wrapper aspect-square">
+                <img src="images/dansende dames-resized.webp" alt="Dansende vrouwenfiguur van keramiek" class="card-img" loading="lazy">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title-sm">Dansende dame</h3>
+                <p class="body-sm">Een dansende dame die op een stok in de wind wiegt.</p>
+              </div>
             </div>
-            <div class="card-body">
-              <h3 class="card-title-sm">Dansende dame</h3>
-              <p class="body-sm">Een dansende dame die op een stok in de wind wiegt.</p>
-            </div>
-          </div>
+          </a>
 
-          <!-- Product 2 -->
-          <div class="card">
-            <div class="card-img-wrapper aspect-square">
-              <img src="images/kaartenstandaard-resized.webp" alt="Kaartenstandaard" class="card-img" loading="lazy">
+          <a href="producten/kaartenstandaard/" class="card-link">
+            <div class="card">
+              <div class="card-img-wrapper aspect-square">
+                <img src="images/kaartenstandaard-resized.webp" alt="Kaartenstandaard" class="card-img" loading="lazy">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title-sm">Kaartenstandaard</h3>
+                <p class="body-sm">Door middel van een kleurrijke kaartenstandaard kun je je leukste kaarten nog leuker tentoonstellen in je kamer.</p>
+              </div>
             </div>
-            <div class="card-body">
-              <h3 class="card-title-sm">Kaartenstandaard</h3>
-              <p class="body-sm">Door middel van een kleurrijke kaartenstandaard kun je je leukste kaarten nog leuker tentoonstellen in je kamer.</p>
-            </div>
-          </div>
+          </a>
 
-          <!-- Product 3 -->
-          <div class="card">
-            <div class="card-img-wrapper aspect-square">
-              <img src="images/groentelabels-resized.webp" alt="Handgemaakte groentelabels" class="card-img" loading="lazy">
+          <a href="producten/groentelabels/" class="card-link">
+            <div class="card">
+              <div class="card-img-wrapper aspect-square">
+                <img src="images/groentelabels-resized.webp" alt="Handgemaakte groentelabels" class="card-img" loading="lazy">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title-sm">Groentelabels</h3>
+                <p class="body-sm">Labels in de vorm van verschillende groentes voor in de groentetuin of kweekbakjes, zodat je altijd weet wat je gezaaid hebt </p>
+              </div>
             </div>
-            <div class="card-body">
-              <h3 class="card-title-sm">Groentelabels</h3>
-              <p class="body-sm">Labels in de vorm van verschillende groentes voor in de groentetuin of kweekbakjes, zodat je altijd weet wat je gezaaid hebt </p>
-            </div>
-          </div>
+          </a>
         </div>
 
         <div class="text-center featured-cta">
