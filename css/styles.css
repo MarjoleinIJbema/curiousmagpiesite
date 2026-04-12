@@ -1011,15 +1011,16 @@ ul {
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
-  min-width: 12rem;
-  padding: 0.5rem 0;
-  margin-top: 0.35rem;
+  min-width: 13rem;
+  padding: 0.75rem 0.5rem;
+  margin-top: 0.6rem;
   background-color: var(--color-cream);
   border: 2.5px solid var(--color-ink);
   border-radius: 14px;
   box-shadow: 3px 3px 0 var(--color-ink);
   z-index: 60;
   flex-direction: column;
+  gap: 0.15rem;
 }
 
 .nav-dropdown:hover .nav-dropdown-menu,
@@ -1031,7 +1032,8 @@ ul {
   font-family: var(--font-body);
   font-size: 0.75rem;
   font-weight: 600;
-  padding: 6px 16px;
+  padding: 7px 14px;
+  border-radius: 8px;
   color: var(--color-ink);
   text-decoration: none;
   transition: background-color 0.15s;
