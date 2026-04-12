@@ -20,16 +20,34 @@ The site has been converted from a Next.js app to a plain static HTML/CSS site. 
 
 | File/Directory | Purpose | Status |
 |----------------|---------|--------|
-| `index.html` | Home page with hero, about, featured products, CTA | ✅ Done |
-| `producten/index.html` | Products overview with 6 products + illustrations | ✅ Done |
+| `index.html` | Home page with hero, about, featured products (clickable), CTA | ✅ Done |
+| `producten/index.html` | Products overview with 6 clickable product cards | ✅ Done |
+| `producten/{slug}/index.html` | Individual product detail pages (6 pages) | ✅ Done |
+| `over-mij/index.html` | About page | ✅ Done |
 | `agenda/index.html` | Markets agenda with upcoming + past dates | ✅ Done |
 | `contact/index.html` | Contact page with email + Instagram | ✅ Done |
 | `css/styles.css` | All styles: layout, components, utilities, image classes | ✅ Done |
 | `js/nav.js` | Mobile hamburger menu toggle | ✅ Done |
-| `images/` | SVG stub illustrations (8 files: hero, atelier, 6 products) | ✅ Stub |
+| `images/` | Product photos (WebP) | ✅ Done |
 | `favicon.svg` | SVG favicon (bird head + disco ball, cropped from ekster.svg) | ✅ Done |
 | (no workflow needed) | GitHub Pages serves from `main` branch directly | ✅ Done |
 | `.kilocode/` | AI context & recipes | ✅ Ready |
+
+### Product Detail Pages
+
+| Slug | Product | Image |
+|------|---------|-------|
+| `dansende-dame` | Dansende dame | `dansende dames-resized.webp` |
+| `slakken` | Slakken | `slakken-resized.webp` |
+| `kaartenstandaard` | Kaartenstandaard | `kaartenstandaard-resized.webp` |
+| `groentelabels` | Groentelabels | `groentelabels-resized.webp` |
+| `bloemenkaarten` | Bloemenkaarten | `kaartje-resized.webp` |
+| `bloemen` | Bloemen | `bloemen-resized.webp` |
+
+### Navigation
+
+- Desktop: hover dropdown under "Producten" with 6 sub-links (CSS-only, `.nav-dropdown`)
+- Mobile: always-visible sub-links below "Producten" (`.mobile-sub-links`)
 
 ## Current Focus
 
@@ -86,3 +104,4 @@ python3 -m http.server 8000
 | 2026-02-22 | Moved all inline color styles to CSS classes; headers now use accent blue (#00679A); greens kept for backgrounds |
 | 2026-02-26 | Replaced LLM-generated texts with real content: "Even voorstellen" on home page, product range intro on products page |
 | 2026-02-27 | Design review & cleanup: accessibility fixes, CSS cleanup (-293 lines), lazy loading, removed placeholder cards, updated products CTA |
+| 2026-04-12 | Added 6 individual product detail pages, dropdown nav with product sub-links, clickable product cards on overview + homepage |
