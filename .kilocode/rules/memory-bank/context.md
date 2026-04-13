@@ -8,6 +8,7 @@ The site has been converted from a Next.js app to a plain static HTML/CSS site. 
 
 ## Recently Completed
 
+- [x] **Agenda update (2026-04-13)**: Added Kunstmarkt Wezup (9 aug 2026) to agenda; fixed Kunstmarkt Schoonebeek location to "Centrum van Schoonebeek (Pallertplein)"
 - [x] **Design review & cleanup (2026-02-27)**:
   - Replaced agenda placeholder cards with simple "more dates coming" text
   - Accessibility: added skip-nav link, aria-expanded on hamburger, aria-hidden on decorative emoji
