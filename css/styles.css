@@ -950,6 +950,22 @@ ul {
   }
 }
 
+/* Past market card variant */
+.market-card-past {
+  border-color: var(--color-ink-soft);
+  box-shadow: none;
+  opacity: 0.75;
+}
+
+.date-badge-muted {
+  background-color: var(--color-butter);
+  border: 2px solid var(--color-ink-soft);
+}
+
+.time-badge-muted {
+  background-color: var(--color-ink-soft);
+}
+
 /* ── Contact block ── */
 .contact-block {
   border: 2.5px solid var(--color-ink);
