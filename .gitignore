@@ -13,3 +13,6 @@ Thumbs.db
 
 # Local plans and client files
 local_plans/
+
+# Kilo
+.kilocode/package-lock.json
