@@ -8,6 +8,7 @@ The site has been converted from a Next.js app to a plain static HTML/CSS site. 
 
 ## Recently Completed
 
+- [x] **Product detail pages (2026-05-25)**: Added six static product pages under `producten/` using the existing product photo and paragraph; product cards now link to their detail pages and the header Producten menu exposes product links on desktop and mobile.
 - [x] **Agenda update (2026-04-13)**: Added Kunstmarkt Wezup (9 aug 2026) to agenda; fixed Kunstmarkt Schoonebeek location to "Centrum van Schoonebeek (Pallertplein)"
 - [x] **Design review & cleanup (2026-02-27)**:
   - Replaced agenda placeholder cards with simple "more dates coming" text
@@ -23,6 +24,7 @@ The site has been converted from a Next.js app to a plain static HTML/CSS site. 
 |----------------|---------|--------|
 | `index.html` | Home page with hero, about, featured products, CTA | ✅ Done |
 | `producten/index.html` | Products overview with 6 products + illustrations | ✅ Done |
+| `producten/*/index.html` | Product detail pages for each product category | ✅ Done |
 | `agenda/index.html` | Markets agenda with upcoming + past dates | ✅ Done |
 | `contact/index.html` | Contact page with email + Instagram | ✅ Done |
 | `css/styles.css` | All styles: layout, components, utilities, image classes | ✅ Done |
@@ -87,3 +89,4 @@ python3 -m http.server 8000
 | 2026-02-22 | Moved all inline color styles to CSS classes; headers now use accent blue (#00679A); greens kept for backgrounds |
 | 2026-02-26 | Replaced LLM-generated texts with real content: "Even voorstellen" on home page, product range intro on products page |
 | 2026-02-27 | Design review & cleanup: accessibility fixes, CSS cleanup (-293 lines), lazy loading, removed placeholder cards, updated products CTA |
+| 2026-05-25 | Added static detail pages for all six products and linked them from product cards plus the header Producten submenu |
