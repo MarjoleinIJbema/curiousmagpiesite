@@ -7,11 +7,13 @@
 Dit zijn de algemene voorwaarden van:
 
 **Curious Magpie**  
+Marjolein IJbema  
+Boterdiep OZ 18  
+9781JB Bedum  
 Nederland  
-T  
 E hallo@curiousmagpie.nl  
-KVK VERVANG_KVK_NUMMER  
-BTW-nummer VERVANG_BTW_NUMMER
+KVK 99582872  
+BTW-nummer NL005397648B05
 
 ### 1.2 Begrippen
 
@@ -291,7 +293,10 @@ Naast de mogelijkheid om gebruik te maken van de in artikel 13 beschreven klacht
 Aan:
 
 **Curious Magpie**  
-, Nederland  
+Marjolein IJbema  
+Boterdiep OZ 18  
+9781JB Bedum  
+Nederland  
 hallo@curiousmagpie.nl
 
 Ik/Wij (*) deel/delen (*) u hierbij mede dat ik/wij (*) onze overeenkomst betreffende de verkoop van de volgende goederen/levering van de volgende dienst (*) herroep/herroepen (*):
