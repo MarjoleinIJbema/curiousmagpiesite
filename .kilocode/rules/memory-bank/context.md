@@ -8,6 +8,7 @@ The site has been converted from a Next.js app to a plain static HTML/CSS site. 
 
 ## Recently Completed
 
+- [x] **Outdoor ceramics frost guidance (2026-07-08)**: Updated article 7.4 in `algemene_voorwaarden.md` to clarify that outdoor ceramics are only frost-/winter-resistant when explicitly stated in product information.
 - [x] **Webshop terms refinement (2026-07-08)**: Updated `algemene_voorwaarden.md` for future keramiek webshop scope: Netherlands-only delivery by default, breakage/transit damage instructions, handmade-ceramics variation language, product-use instructions, custom-order herroepingsrecht handling, ownership retention, B2B liability limitation, and complaints flow without WebwinkelKeur references.
 - [x] **Algemene voorwaarden (2026-07-08)**: Converted `algemene_voorwaarden.md` to structured Markdown and filled Curious Magpie contact details from the contact page.
 - [x] **Agenda update (2026-04-13)**: Added Kunstmarkt Wezup (9 aug 2026) to agenda; fixed Kunstmarkt Schoonebeek location to "Centrum van Schoonebeek (Pallertplein)"
@@ -48,8 +49,9 @@ Pending user actions:
 2. Update market dates in agenda page as needed
 3. Future webshop: show return costs clearly before purchase, including in checkout/return information
 4. Future webshop: mark custom or personalized products before purchase when herroepingsrecht is excluded
-5. Future webshop: add a separate privacy statement; article 12 in the terms is not a full privacy policy
-6. Enable GitHub Pages in repo settings (Source: "Deploy from a branch" → Branch: `main` / `/ (root)`)
+5. Future webshop: mark product pages clearly when outdoor ceramics are frost-/winter-resistant or should be brought inside during frost
+6. Future webshop: add a separate privacy statement; article 12 in the terms is not a full privacy policy
+7. Enable GitHub Pages in repo settings (Source: "Deploy from a branch" → Branch: `main` / `/ (root)`)
 
 ## Quick Start Guide
 

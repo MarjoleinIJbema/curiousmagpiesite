@@ -158,7 +158,7 @@ Producten van de Webwinkel zijn handgemaakt. Kleine afwijkingen in kleur, glazuu
 
 ### 7.4
 
-U dient de productinformatie en gebruiksinstructies die bij of over een product worden verstrekt te volgen. Producten zijn alleen voedselveilig, vaatwasserbestendig, magnetronbestendig of ovenbestendig als dit uitdrukkelijk bij het product is vermeld. Schade die ontstaat door gebruik in strijd met duidelijke productinformatie of gebruiksinstructies valt, voor zover wettelijk toegestaan, niet onder garantie of non-conformiteit.
+U dient de productinformatie en gebruiksinstructies die bij of over een product worden verstrekt te volgen. Producten zijn alleen voedselveilig, vaatwasserbestendig, magnetronbestendig, ovenbestendig of vorst-/winterbestendig als dit uitdrukkelijk bij het product is vermeld. Keramiek voor buiten is dus niet automatisch bestand tegen vorst of overwintering in de tuin. Schade die ontstaat door gebruik of opslag in strijd met duidelijke productinformatie of gebruiksinstructies, waaronder schade door vorst, valt, voor zover wettelijk toegestaan, niet onder garantie of non-conformiteit.
 
 ## Artikel 8 - Intellectuele eigendomsrechten
 
