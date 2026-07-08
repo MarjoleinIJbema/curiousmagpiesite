@@ -6,14 +6,16 @@
 
 Dit zijn de algemene voorwaarden van:
 
-**Curious Magpie**  
-Marjolein IJbema  
-Boterdiep OZ 18  
-9781JB Bedum  
-Nederland  
-E hallo@curiousmagpie.nl  
-KVK 99582872  
-BTW-nummer NL005397648B05
+- Curious Magpie
+- Marjolein IJbema
+- Boterdiep OZ 18
+- 9781JB Bedum
+- Nederland
+- E-mail: hallo@curiousmagpie.nl
+- KVK 99582872
+- BTW-nummer NL005397648B05
+
+Voor vragen over bestellingen, klachten en het Herroepingsrecht kunt U contact opnemen via hallo@curiousmagpie.nl.
 
 ### 1.2 Begrippen
 
@@ -76,13 +78,17 @@ De Webwinkel doet haar best om de Overeenkomst zo zorgvuldig en snel mogelijk ui
 
 ### 4.3
 
-Leveringen worden gedaan op het adres dat U aan de Webwinkel hebt opgegeven. Als dat adres zich buiten Nederland bevindt, heeft de Webwinkel het recht om Uw bestelling te weigeren, zonder dat de Webwinkel een schadevergoeding verschuldigd is.
+Leveringen worden gedaan op het adres binnen Nederland dat U aan de Webwinkel hebt opgegeven. Levering buiten Nederland vindt alleen plaats als U dat vooraf schriftelijk met de Webwinkel bent overeengekomen. Als het opgegeven adres zich buiten het verzendgebied bevindt, heeft de Webwinkel het recht om Uw bestelling te weigeren, zonder dat de Webwinkel een schadevergoeding verschuldigd is.
 
 ### 4.4
 
 De Webwinkel bepaalt zorgvuldig wie binnen haar organisatie wordt aangewezen om de Overeenkomst uit te voeren. De Webwinkel mag daarvoor ook derden inschakelen, zoals onder-opdrachtnemers en/of hulppersonen. De partij die de Webwinkel inschakelt voor de bezorging van bestelde producten, maakt zij vooraf aan U bekend. Als tijdens die bezorging producten kwijtraken of beschadigd raken, is dat voor risico van de Webwinkel. Dat is alleen anders als U met de Webwinkel uitdrukkelijk iets anders bent overeengekomen.
 
 ### 4.5
+
+Omdat keramiek breekbaar is, verzoeken Wij U eventuele breuk of transportschade zo snel mogelijk na ontvangst aan Ons te melden via hallo@curiousmagpie.nl, bij voorkeur met foto's van het beschadigde product, de verpakking en het verzendlabel. Dit helpt Ons om de schade snel af te handelen en, waar mogelijk, bij de vervoerder te melden. Dit verzoek doet geen afbreuk aan Uw wettelijke rechten als Consument.
+
+### 4.6
 
 Alle gegevens waarvan de Webwinkel heeft aangegeven dat deze noodzakelijk zijn voor het uitvoeren van de Overeenkomst of waarvan U redelijkerwijs behoort te begrijpen dat deze noodzakelijk zijn, dient U tijdig aan de Webwinkel te verstrekken. Als U dat niet doet, mag de Webwinkel onder meer de uitvoering van de Overeenkomst opschorten. De Webwinkel kan naast het recht om de Overeenkomst op te schorten gebruik (blijven) maken van haar eventuele andere rechten.
 
@@ -108,7 +114,7 @@ Als U een Consument bent, heeft U in het geval van de prijsverhogingen die zijn 
 
 ### 6.1
 
-U bent verplicht om facturen van de Webwinkel te betalen binnen 14 dagen na het sluiten van de Overeenkomst, tenzij U iets anders met de Webwinkel bent overeengekomen. Ben U een Consument? Dan mag de Webwinkel U op grond van de wet niet verplichten om meer dan 50% van de prijs vooruit te betalen.
+U bent verplicht om facturen van de Webwinkel te betalen binnen 14 dagen na het sluiten van de Overeenkomst, tenzij U iets anders met de Webwinkel bent overeengekomen. Bent U een Consument? Dan mag de Webwinkel U op grond van de wet niet verplichten om meer dan 50% van de prijs vooruit te betalen.
 
 ### 6.2
 
@@ -132,6 +138,10 @@ Betalingen die U doet worden eerst in mindering gebracht op verschuldigde rente 
 
 In geval van liquidatie, ontbinding, faillissement of surséance van betaling van de Klant en als de Klant geheel of gedeeltelijk het vrije beheer of de vrije beschikking over haar vermogen verliest, zijn de (betalings-)verplichtingen van de Klant onmiddellijk opeisbaar.
 
+### 6.6
+
+Alle geleverde producten blijven eigendom van de Webwinkel totdat U alle bedragen die U op grond van de Overeenkomst verschuldigd bent volledig heeft betaald. Dit eigendomsvoorbehoud laat de wettelijke regels over risico-overgang bij consumentenkoop onverlet.
+
 ## Artikel 7 - Garanties
 
 ### 7.1
@@ -141,6 +151,14 @@ De Webwinkel zorgt ervoor dat de producten en/of diensten die ze aan U levert vo
 ### 7.2
 
 Als U een Consument bent, geldt dat eventuele extra garanties die de Webwinkel aan U heeft verstrekt, nooit de wettelijke rechten van consumenten beperken. U kunt dus altijd gebruik maken van Uw wettelijke (consumenten)rechten.
+
+### 7.3
+
+Producten van de Webwinkel zijn handgemaakt. Kleine afwijkingen in kleur, glazuur, vorm, afmeting, structuur en afwerking horen bij handgemaakt keramiek en vormen op zichzelf geen gebrek. Productfoto's en omschrijvingen geven een zo goed mogelijk beeld, maar kunnen bij unieke of handgemaakte stukken indicatief zijn.
+
+### 7.4
+
+U dient de productinformatie en gebruiksinstructies die bij of over een product worden verstrekt te volgen. Producten zijn alleen voedselveilig, vaatwasserbestendig, magnetronbestendig of ovenbestendig als dit uitdrukkelijk bij het product is vermeld. Schade die ontstaat door gebruik in strijd met duidelijke productinformatie of gebruiksinstructies valt, voor zover wettelijk toegestaan, niet onder garantie of non-conformiteit.
 
 ## Artikel 8 - Intellectuele eigendomsrechten
 
@@ -173,7 +191,7 @@ Als U het herroepingsformulier nog niet hebt ontvangen van de Webwinkel, wordt d
 Als U gebruik maakt van het Herroepingsrecht, dient U:
 
 - zorgvuldig om te gaan met al ontvangen zaken en de verpakking daarvan. U mag die zaken (producten) alleen uitpakken of gebruiken in de mate die nodig is om de aard, de kenmerken en de werking van de zaak vast te stellen. Als U op een andere manier omgaat met de zaak bent U aansprakelijk voor eventuele waardevermindering van de zaak die daardoor is veroorzaakt, tenzij de Webwinkel niet voor of bij het sluiten van de Overeenkomst alle wettelijk verplichte informatie over het Herroepingsrecht aan U heeft verstrekt;
-- de zaak (het product) terug te sturen naar de Webwinkel binnen 14 dagen te rekenen vanaf de dag na de dag waarop U de in artikel 9.2 bedoelde verklaring heeft gedaan. De rechtstreekse kosten van het terugzenden van een zaak zijn voor rekening van U, maar alléén als de Webwinkel U daarover voor het sluiten van de Overeenkomst heeft geïnformeerd;
+- de zaak (het product) terug te sturen naar de Webwinkel binnen 14 dagen te rekenen vanaf de dag na de dag waarop U de in artikel 9.2 bedoelde verklaring heeft gedaan. De rechtstreekse kosten van het terugzenden van een zaak zijn voor rekening van U, maar alléén als de Webwinkel U daarover voor het sluiten van de Overeenkomst duidelijk heeft geïnformeerd, bijvoorbeeld in verzend- of retourinformatie of in het bestelproces;
 - de zaak zoveel mogelijk terug te sturen met alle geleverde toebehoren, in de originele staat en verpakking en volgens de instructies die de Webwinkel U redelijkerwijs en duidelijk heeft verstrekt.
 
 ### 9.5
@@ -192,7 +210,11 @@ Als U geen Consument bent, kunt U geen gebruik maken van het Herroepingsrecht. O
 
 ### 10.2
 
-Als U een Consument ben, kunt U - in afwijking van artikel 9 - geen gebruik maken van het Herroepingsrecht, als:
+Voor standaardproducten die U als Consument op afstand koopt, geldt het Herroepingsrecht zoals beschreven in artikel 9, tenzij een wettelijke uitzondering van toepassing is. Voor keramiek dat volgens Uw specificaties wordt gemaakt, gepersonaliseerd is of duidelijk voor een specifieke persoon bestemd is, geldt het Herroepingsrecht niet als de Webwinkel U daar vóór het sluiten van de Overeenkomst duidelijk over heeft geïnformeerd.
+
+### 10.3
+
+Als U een Consument bent, kunt U - in afwijking van artikel 9 - geen gebruik maken van het Herroepingsrecht, als:
 
 - de Webwinkel het Herroepingsrecht heeft uitgesloten én
 - de Webwinkel U vóór het sluiten van de Overeenkomst duidelijk heeft geïnformeerd over de uitsluiting van het Herroepingsrecht, én
@@ -238,7 +260,7 @@ Als U een Consument bent, gelden met betrekking tot opzeggingen de volgende rege
 
 ### 11.3
 
-Als U geen Consument bent, mag U de Overeenkomst alleen opzeggen als dat uitdrukkelijk in de Overeenkomst is bepaalde en volgens de daarbij bepaalde opzeggingsregels en opzegtermijnen.
+Als U geen Consument bent, mag U de Overeenkomst alleen opzeggen als dat uitdrukkelijk in de Overeenkomst is bepaald en volgens de daarbij bepaalde opzeggingsregels en opzegtermijnen.
 
 ## Artikel 12 - Persoonsgegevens
 
@@ -246,7 +268,7 @@ Als U geen Consument bent, mag U de Overeenkomst alleen opzeggen als dat uitdruk
 
 De Webwinkel verwerkt persoonsgegevens alleen volgens geldende wet- en regelgeving. Dat betekent onder meer dat:
 
-- de webwinkel alleen persoonsgegevens verwerkt voor zover die verwerking kan worden gebaseerd op een van de grondslagen uit artikel 6 Algemene Verordening Persoonsgegevens (AVG);
+- de Webwinkel alleen persoonsgegevens verwerkt voor zover die verwerking kan worden gebaseerd op een van de grondslagen uit artikel 6 Algemene Verordening Gegevensbescherming (AVG);
 - de Webwinkel zorgt voor passende technische en organisatorische maatregelen om de persoonsgegevens die zij verwerkt goed te beveiligen;
 - de Webwinkel persoonsgegevens alleen zal delen met derden als dit verenigbaar is met het doel waarvoor de gegevens zijn verzameld en als is voldaan aan alle (andere) wettelijke vereisten die gelden voor het delen van persoonsgegevens;
 - persoonsgegevens niet langer worden bewaard dan noodzakelijk is voor de doeleinden waarvoor zij zijn verzameld, tenzij de Webwinkel op grond van de wet verplicht is om de gegevens langer te bewaren;
@@ -268,19 +290,33 @@ De Webwinkel reageert zoveel mogelijk binnen 14 dagen na ontvangst van de klacht
 
 ### 13.4
 
-Bij klachten dient U altijd eerst de Webwinkel aan te spreken en te onderzoeken of de Webwinkel u een passende oplossing kan bieden. Is de Webwinkel aangesloten bij WebwinkelKeur en komen partijen er onderling niet uit, dan kunt U zich wenden tot WebwinkelKeur (www.webwinkelkeur.nl). WebwinkelKeur bemiddelt kosteloos. U kunt controleren of de Webwinkel een lopend lidmaatschap heeft via https://www.webwinkelkeur.nl/ledenlijst/.
+Bij klachten dient U altijd eerst de Webwinkel aan te spreken via hallo@curiousmagpie.nl en te onderzoeken of de Webwinkel u een passende oplossing kan bieden.
 
 ### 13.5
 
-Als de bemiddeling door WebwinkelKeur niet tot een oplossing leidt, kunt U de klacht ook voorleggen aan de door WebwinkelKeur aangewezen onafhankelijke geschillencommissie. Als u daarvoor kiest, kunnen kosten bij U in rekening worden gebracht.
+Komen Wij er samen niet uit, dan kunt U het geschil voorleggen aan de bevoegde rechter zoals beschreven in artikel 15.
 
-## Artikel 14 - Recht en forumkeuze
+## Artikel 14 - Aansprakelijkheid
 
 ### 14.1
 
-Op de Overeenkomst is uitsluitend Nederlands recht van toepassing.
+De Webwinkel is aansprakelijk voor schade voor zover die aansprakelijkheid voortvloeit uit de wet of de Overeenkomst. Niets in deze algemene voorwaarden beperkt de wettelijke rechten die U als Consument heeft.
 
 ### 14.2
+
+Als U geen Consument bent, is de aansprakelijkheid van de Webwinkel, voor zover wettelijk toegestaan, beperkt tot het bedrag dat U voor de betreffende Overeenkomst aan de Webwinkel heeft betaald of nog verschuldigd bent. De Webwinkel is tegenover Klanten die geen Consument zijn niet aansprakelijk voor indirecte schade, gevolgschade, gederfde winst, gemiste besparingen of schade door bedrijfsstagnatie, tenzij sprake is van opzet of bewuste roekeloosheid van de Webwinkel.
+
+### 14.3
+
+De beperkingen in dit artikel gelden niet voor zover aansprakelijkheid op grond van dwingend recht niet mag worden beperkt of uitgesloten.
+
+## Artikel 15 - Recht en forumkeuze
+
+### 15.1
+
+Op de Overeenkomst is uitsluitend Nederlands recht van toepassing.
+
+### 15.2
 
 Naast de mogelijkheid om gebruik te maken van de in artikel 13 beschreven klachtenregeling, kunt U geschillen voorleggen aan de rechter. In die gevallen geldt dat de rechter van het arrondissement waarin de Webwinkel is gevestigd, bevoegd is om van het geschil kennis te nemen, met uitsluiting van andere bevoegde rechterlijke instanties en arbitrage. Tenzij op basis van een dwingendrechtelijke bepaling een rechter in een andere plaats bevoegd is.
 
@@ -292,12 +328,12 @@ Naast de mogelijkheid om gebruik te maken van de in artikel 13 beschreven klacht
 
 Aan:
 
-**Curious Magpie**  
-Marjolein IJbema  
-Boterdiep OZ 18  
-9781JB Bedum  
-Nederland  
-hallo@curiousmagpie.nl
+- Curious Magpie
+- Marjolein IJbema
+- Boterdiep OZ 18
+- 9781JB Bedum
+- Nederland
+- hallo@curiousmagpie.nl
 
 Ik/Wij (*) deel/delen (*) u hierbij mede dat ik/wij (*) onze overeenkomst betreffende de verkoop van de volgende goederen/levering van de volgende dienst (*) herroep/herroepen (*):
 

@@ -8,6 +8,7 @@ The site has been converted from a Next.js app to a plain static HTML/CSS site. 
 
 ## Recently Completed
 
+- [x] **Webshop terms refinement (2026-07-08)**: Updated `algemene_voorwaarden.md` for future keramiek webshop scope: Netherlands-only delivery by default, breakage/transit damage instructions, handmade-ceramics variation language, product-use instructions, custom-order herroepingsrecht handling, ownership retention, B2B liability limitation, and complaints flow without WebwinkelKeur references.
 - [x] **Algemene voorwaarden (2026-07-08)**: Converted `algemene_voorwaarden.md` to structured Markdown and filled Curious Magpie contact details from the contact page.
 - [x] **Agenda update (2026-04-13)**: Added Kunstmarkt Wezup (9 aug 2026) to agenda; fixed Kunstmarkt Schoonebeek location to "Centrum van Schoonebeek (Pallertplein)"
 - [x] **Design review & cleanup (2026-02-27)**:
@@ -45,7 +46,10 @@ Website is a static site for Curious Magpie ceramics atelier (Marjolein IJbema).
 Pending user actions:
 1. Replace SVG stub illustrations in `images/` with real product photos (swap SVG for JPG/PNG, update `src` in HTML)
 2. Update market dates in agenda page as needed
-3. Enable GitHub Pages in repo settings (Source: "Deploy from a branch" → Branch: `main` / `/ (root)`)
+3. Future webshop: show return costs clearly before purchase, including in checkout/return information
+4. Future webshop: mark custom or personalized products before purchase when herroepingsrecht is excluded
+5. Future webshop: add a separate privacy statement; article 12 in the terms is not a full privacy policy
+6. Enable GitHub Pages in repo settings (Source: "Deploy from a branch" → Branch: `main` / `/ (root)`)
 
 ## Quick Start Guide
 
@@ -88,3 +92,4 @@ python3 -m http.server 8000
 | 2026-02-26 | Replaced LLM-generated texts with real content: "Even voorstellen" on home page, product range intro on products page |
 | 2026-02-27 | Design review & cleanup: accessibility fixes, CSS cleanup (-293 lines), lazy loading, removed placeholder cards, updated products CTA |
 | 2026-07-08 | Formatted `algemene_voorwaarden.md` as proper Markdown and filled contact/KVK/BTW details from the contact page |
+| 2026-07-08 | Refined `algemene_voorwaarden.md` for future keramiek webshop scope: delivery NL, breakage reporting, handmade variations, use instructions, custom orders, ownership retention, liability, and complaints without WebwinkelKeur |
