@@ -272,6 +272,14 @@
       padding-top: 14px;
     }
 
+    /* ── Page break (print) ── */
+    @media print {
+      .page-break {
+        break-before: page;
+        page-break-before: always;
+      }
+    }
+
     /* ── Print styles ── */
     @page {
       size: A4;
@@ -383,7 +391,7 @@
     </div>
 
     <!-- ── OPMERKINGEN ── -->
-    <p class="section-title">Ruimte voor overige opmerkingen</p>
+    <p class="section-title page-break">Ruimte voor overige opmerkingen</p>
     <p class="statement" style="font-size:0.85rem;color:var(--color-ink-soft);margin-bottom:8px;">
       Is een product beschadigd of gebroken aangekomen? Voeg indien mogelijk foto's toe van het
       product, de verpakking en het verzendlabel via hallo@curiousmagpie.nl.
