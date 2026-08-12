@@ -2,7 +2,7 @@
 
 Static website for Curious Magpie, the ceramics atelier of Marjolein IJbema.
 
-🌐 **Live site:** [https://markijbema.github.io/curiousmagpiesite/](https://markijbema.github.io/curiousmagpiesite/)
+🌐 **Live site:** [https://MarjoleinIJbema.github.io/curiousmagpiesite/](https://MarjoleinIJbema.github.io/curiousmagpiesite/)
 
 ## View locally
 
