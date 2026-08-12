@@ -9,6 +9,7 @@ The site has been converted from a Next.js app to a plain static HTML/CSS site. 
 ## Recently Completed
 
 - [x] **Retourformulier (2026-08-10)**: Created printable `juridisch/retourformulier.html` — self-contained (inline CSS, no external stylesheet), A4 print styles with a "Print / opslaan als PDF" button. Uses brand colors/fonts and pulls address, KVK, BTW and email from `algemene_voorwaarden.md`. Includes fields (datum, ordernummer, naam, IBAN, adres, e-mail), articles table with retourcodes, reason legend (1–5), notes box, signature, and a dashed address strook.
+- [x] **Webshop link integration (2026-08-12)**: Replaced local "Producten" page with external webshop link (`https://www.curiousmagpiewebshop.nl/`). Updated navigation in `index.html`, `over-mij/index.html`, `agenda/index.html`, and `contact/index.html`. Renamed nav item from "Producten" to "Shop". Updated hero and featured product CTAs on home page. Deleted `producten/index.html`; shared `images/` folder preserved.
 - [x] **Outdoor ceramics frost guidance (2026-07-08)**: Updated article 7.4 in `algemene_voorwaarden.md` to clarify that outdoor ceramics are only frost-/winter-resistant when explicitly stated in product information.
 - [x] **Webshop terms refinement (2026-07-08)**: Updated `algemene_voorwaarden.md` for future keramiek webshop scope: Netherlands-only delivery by default, breakage/transit damage instructions, handmade-ceramics variation language, product-use instructions, custom-order herroepingsrecht handling, ownership retention, B2B liability limitation, and complaints flow without WebwinkelKeur references.
 - [x] **Algemene voorwaarden (2026-07-08)**: Converted `algemene_voorwaarden.md` to structured Markdown and filled Curious Magpie contact details from the contact page.
@@ -26,7 +27,6 @@ The site has been converted from a Next.js app to a plain static HTML/CSS site. 
 | File/Directory | Purpose | Status |
 |----------------|---------|--------|
 | `index.html` | Home page with hero, about, featured products, CTA | ✅ Done |
-| `producten/index.html` | Products overview with 6 products + illustrations | ✅ Done |
 | `agenda/index.html` | Markets agenda with upcoming + past dates | ✅ Done |
 | `contact/index.html` | Contact page with email + Instagram | ✅ Done |
 | `css/styles.css` | All styles: layout, components, utilities, image classes | ✅ Done |
@@ -96,3 +96,4 @@ python3 -m http.server 8000
 | 2026-02-27 | Design review & cleanup: accessibility fixes, CSS cleanup (-293 lines), lazy loading, removed placeholder cards, updated products CTA |
 | 2026-07-08 | Formatted `algemene_voorwaarden.md` as proper Markdown and filled contact/KVK/BTW details from the contact page |
 | 2026-07-08 | Refined `algemene_voorwaarden.md` for future keramiek webshop scope: delivery NL, breakage reporting, handmade variations, use instructions, custom orders, ownership retention, liability, and complaints without WebwinkelKeur |
+| 2026-08-12 | Replaced local producten page with external webshop link; updated all navigation to "Shop" pointing to `https://www.curiousmagpiewebshop.nl/`; deleted `producten/index.html` |
