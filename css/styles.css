@@ -957,6 +957,10 @@ ul {
   opacity: 0.75;
 }
 
+.market-card-past .location-text { display: none;}
+.market-card-past .time-badge { display: none; }
+.market-card-past .date-badge {float: right}
+
 .date-badge-muted {
   background-color: var(--color-butter);
   border: 2px solid var(--color-ink-soft);
