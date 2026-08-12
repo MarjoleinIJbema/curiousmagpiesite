@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retourformulier · Curious Magpie</title>
+  <meta name="description" content="Retourformulier van Curious Magpie keramiek. Print dit formulier en stuur het mee met je retourzending.">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <style>
+    :root {
+      --color-cream: #f7f5ee;
+      --color-primary: #5c8001;
+      --color-secondary: #2c3d01;
+      --color-accent-gold: #ffb30f;
+      --color-accent-blue: #00679a;
+      --color-blush: #d8e4a8;
+      --color-mint: #e4ecc8;
+      --color-ink: #4c2e05;
+      --color-ink-soft: #6b4a1a;
+      --font-body: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-body);
+      color: var(--color-ink);
+      background-color: #e8e6dd;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .sheet {
+      background-color: var(--color-cream);
+      max-width: 800px;
+      margin: 24px auto;
+      padding: 40px 48px 48px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
+    }
+
+    /* ── Header ── */
+    .form-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      border-bottom: 3px solid var(--color-ink);
+      padding-bottom: 20px;
+      margin-bottom: 28px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .brand img {
+      width: 56px;
+      height: 56px;
+    }
+
+    .brand-name {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--color-secondary);
+      line-height: 1.1;
+    }
+
+    .brand-sub {
+      font-size: 0.85rem;
+      color: var(--color-ink-soft);
+      letter-spacing: 0.02em;
+    }
+
+    .form-title {
+      font-family: var(--font-display);
+      font-size: 1.7rem;
+      font-weight: 700;
+      color: var(--color-primary);
+      text-align: right;
+      margin: 0;
+    }
+
+    .intro {
+      font-size: 0.92rem;
+      color: var(--color-ink-soft);
+      margin-bottom: 28px;
+    }
+
+    /* ── Field rows ── */
+    .field-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px 28px;
+      margin-bottom: 28px;
+    }
+
+    .field {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .field.full { grid-column: 1 / -1; }
+
+    .field label {
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--color-secondary);
+      margin-bottom: 6px;
+    }
+
+    .field .line {
+      border-bottom: 1.5px solid var(--color-ink);
+      min-height: 26px;
+    }
+
+    /* ── Section titles ── */
+    .section-title {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--color-secondary);
+      margin: 0 0 6px;
+    }
+
+    .statement {
+      font-size: 0.95rem;
+      margin: 0 0 14px;
+    }
+
+    /* ── Articles table ── */
+    table.articles {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 10px;
+    }
+
+    table.articles th {
+      background-color: var(--color-mint);
+      border: 1.5px solid var(--color-ink);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      color: var(--color-secondary);
+      padding: 8px 10px;
+      text-align: left;
+    }
+
+    table.articles td {
+      border: 1.5px solid var(--color-ink);
+      height: 40px;
+      padding: 6px 10px;
+    }
+
+    table.articles .col-qty { width: 80px; }
+    table.articles .col-code { width: 130px; }
+
+    /* ── Reason legend ── */
+    .reasons {
+      background-color: var(--color-butter, #faecc0);
+      border: 1.5px solid var(--color-ink);
+      border-radius: 4px;
+      padding: 12px 16px;
+      margin: 8px 0 28px;
+    }
+
+    .reasons h3 {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin: 0 0 8px;
+      color: var(--color-secondary);
+    }
+
+    .reasons ol {
+      margin: 0;
+      padding-left: 20px;
+      columns: 2;
+      font-size: 0.9rem;
+    }
+
+    .reasons li { margin-bottom: 4px; break-inside: avoid; }
+
+    /* ── Notes ── */
+    .notes-box {
+      border: 1.5px solid var(--color-ink);
+      border-radius: 4px;
+      min-height: 90px;
+      margin-bottom: 28px;
+      background-image: repeating-linear-gradient(
+        transparent,
+        transparent 28px,
+        var(--color-blush) 28px,
+        var(--color-blush) 29px
+      );
+    }
+
+    /* ── Signature ── */
+    .sign-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px 28px;
+      margin-bottom: 32px;
+    }
+
+    /* ── Address strook ── */
+    .address-block {
+      border: 2.5px dashed var(--color-ink);
+      border-radius: 6px;
+      padding: 18px 22px;
+      background-color: #fff;
+    }
+
+    .address-block .cut-hint {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--color-ink-soft);
+      margin: 0 0 10px;
+    }
+
+    .address-block .addr {
+      font-size: 1.05rem;
+      line-height: 1.5;
+    }
+
+    .address-block .addr strong {
+      color: var(--color-secondary);
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+    }
+
+    /* ── Print button ── */
+    .print-bar {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: right;
+      padding: 4px 8px;
+    }
+
+    .print-btn {
+      font-family: var(--font-body);
+      font-weight: 700;
+      font-size: 0.9rem;
+      color: var(--color-cream);
+      background-color: var(--color-primary);
+      border: 2px solid var(--color-ink);
+      border-radius: 4px;
+      padding: 10px 18px;
+      cursor: pointer;
+      box-shadow: 3px 3px 0 var(--color-ink);
+    }
+
+    .print-btn:hover { background-color: var(--color-secondary); }
+
+    .footer-note {
+      font-size: 0.8rem;
+      color: var(--color-ink-soft);
+      text-align: center;
+      margin-top: 28px;
+      border-top: 1.5px solid var(--color-blush);
+      padding-top: 14px;
+    }
+
+    /* ── Page break (print) ── */
+    @media print {
+      .page-break {
+        break-before: page;
+        page-break-before: always;
+      }
+    }
+
+    /* ── Print styles ── */
+    @page {
+      size: A4;
+      margin: 14mm;
+    }
+
+    @media print {
+      body { background: #fff; }
+      .sheet {
+        box-shadow: none;
+        margin: 0;
+        max-width: 100%;
+        padding: 0;
+      }
+      .print-bar { display: none; }
+      .notes-box, .address-block, table.articles td, .field .line {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      .reasons, table.articles th {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="print-bar">
+    <button class="print-btn" onclick="window.print()">Print / opslaan als PDF</button>
+  </div>
+
+  <div class="sheet">
+
+    <!-- ── HEADER ── -->
+    <div class="form-header">
+      <div class="brand">
+        <img src="../ekster.svg" alt="Curious Magpie logo">
+        <div>
+          <div class="brand-name">Curious Magpie</div>
+          <div class="brand-sub">Handgemaakt keramiek · Bedum</div>
+        </div>
+      </div>
+      <h1 class="form-title">Retourformulier</h1>
+    </div>
+
+    <p class="intro">
+      Wil je een bestelling retourneren? Vul dit formulier volledig in en stuur het mee met je
+      retourzending. Op grond van het Herroepingsrecht kun je de overeenkomst binnen 14 dagen
+      zonder opgave van redenen ontbinden. Vragen? Mail ons via
+      <strong>hallo@curiousmagpie.nl</strong>.
+    </p>
+
+    <!-- ── GEGEVENS ── -->
+    <div class="field-grid">
+      <div class="field">
+        <label>Datum</label>
+        <div class="line"></div>
+      </div>
+      <div class="field">
+        <label>Ordernummer</label>
+        <div class="line"></div>
+      </div>
+      <div class="field">
+        <label>Voor- en achternaam</label>
+        <div class="line"></div>
+      </div>
+      <div class="field">
+        <label>IBAN rekeningnummer</label>
+        <div class="line"></div>
+      </div>
+      <div class="field full">
+        <label>Adres (straat, huisnummer, postcode, woonplaats)</label>
+        <div class="line"></div>
+      </div>
+      <div class="field full">
+        <label>E-mailadres</label>
+        <div class="line"></div>
+      </div>
+    </div>
+
+    <!-- ── ARTIKELEN ── -->
+    <p class="section-title">Ik deel hierbij mede dat ik de overeenkomst betreffende de volgende goederen ontbind:</p>
+    <table class="articles">
+      <thead>
+        <tr>
+          <th>Artikelnaam</th>
+          <th class="col-qty">Aantal</th>
+          <th class="col-code">Retourcode</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td></tr>
+      </tbody>
+    </table>
+
+    <div class="reasons">
+      <h3>Reden van retour (vul de retourcode in bij het artikel)</h3>
+      <ol>
+        <li>Product voldoet niet aan de verwachting</li>
+        <li>Verkeerd artikel geleverd</li>
+        <li>Het product is beschadigd</li>
+      </ol>
+    </div>
+
+    <!-- ── OPMERKINGEN ── -->
+    <p class="section-title page-break">Ruimte voor overige opmerkingen</p>
+    <p class="statement" style="font-size:0.85rem;color:var(--color-ink-soft);margin-bottom:8px;">
+      Is een product beschadigd of gebroken aangekomen? Voeg indien mogelijk foto's toe van het
+      product, de verpakking en het verzendlabel via hallo@curiousmagpie.nl.
+    </p>
+    <div class="notes-box"></div>
+
+    <!-- ── HANDTEKENING ── -->
+    <div class="sign-grid">
+      <div class="field">
+        <label>Handtekening</label>
+        <div class="line" style="min-height:44px;"></div>
+      </div>
+      <div class="field">
+        <label>Plaats &amp; datum</label>
+        <div class="line" style="min-height:44px;"></div>
+      </div>
+    </div>
+
+    <!-- ── ADRESSTROOK ── -->
+    <p class="section-title">Verzendadres voor je retour</p>
+    <div class="address-block">
+      <p class="cut-hint">✂ Gebruik onderstaand adres voor het terugsturen van je bestelling</p>
+      <div class="addr">
+        <strong>Curious Magpie</strong><br>
+        Boterdiep OZ 18<br>
+        9781 JB Bedum<br>
+        Nederland
+      </div>
+    </div>
+
+    <p class="footer-note">
+      Curious Magpie · Marjolein IJbema · KVK 99582872 · BTW NL005397648B05 · hallo@curiousmagpie.nl
+    </p>
+
+  </div>
+
+</body>
+</html>

@@ -8,6 +8,7 @@ The site has been converted from a Next.js app to a plain static HTML/CSS site. 
 
 ## Recently Completed
 
+- [x] **Retourformulier (2026-08-10)**: Created printable `juridisch/retourformulier.html` — self-contained (inline CSS, no external stylesheet), A4 print styles with a "Print / opslaan als PDF" button. Uses brand colors/fonts and pulls address, KVK, BTW and email from `algemene_voorwaarden.md`. Includes fields (datum, ordernummer, naam, IBAN, adres, e-mail), articles table with retourcodes, reason legend (1–5), notes box, signature, and a dashed address strook.
 - [x] **Outdoor ceramics frost guidance (2026-07-08)**: Updated article 7.4 in `algemene_voorwaarden.md` to clarify that outdoor ceramics are only frost-/winter-resistant when explicitly stated in product information.
 - [x] **Webshop terms refinement (2026-07-08)**: Updated `algemene_voorwaarden.md` for future keramiek webshop scope: Netherlands-only delivery by default, breakage/transit damage instructions, handmade-ceramics variation language, product-use instructions, custom-order herroepingsrecht handling, ownership retention, B2B liability limitation, and complaints flow without WebwinkelKeur references.
 - [x] **Algemene voorwaarden (2026-07-08)**: Converted `algemene_voorwaarden.md` to structured Markdown and filled Curious Magpie contact details from the contact page.
