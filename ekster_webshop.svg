@@ -5,8 +5,8 @@
    version="1.1"
    id="svg1"
    width="717.06335"
-   height="349.59009"
-   viewBox="0 0 717.06334 349.59009"
+   height="409.59009"
+   viewBox="0 0 717.06334 409.59009"
    sodipodi:docname="ekster.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -60,8 +60,9 @@
        margin="220.82001 237.18666 223.29733 153.22533"
        bleed="0" />
   </sodipodi:namedview>
-  <g
-     id="layer-MC0"
+   <g transform="translate(0, 30)">
+   <g
+      id="layer-MC0"
      inkscape:groupmode="layer"
      inkscape:label="Laag 1"
      style="display:none"
@@ -359,5 +360,6 @@
        style="fill:#1d1d1b;fill-opacity:1;fill-rule:nonzero;stroke:none"
        aria-label="Curious Magpie"
        transform="matrix(1.3333333,0,0,1.3333333,370.52213,427.42547)" />
-  </g>
+   </g>
+   </g>
 </svg>
