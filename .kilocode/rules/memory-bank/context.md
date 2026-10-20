@@ -8,6 +8,7 @@ The site has been converted from a Next.js app to a plain static HTML/CSS site. 
 
 ## Recently Completed
 
+- [x] **Static magpie logo (2026-10-19)**: Added standalone `ekster-statisch.svg` with the eye permanently open and two fixed disco-ball sparkles. Removed all CSS and SVG animations from the copy; original `ekster.svg` and site references remain unchanged.
 - [x] **Reorder agenda sections (2026-09-03)**: Moved "Vaste verkooppunten" section above "Eerdere markten" in `agenda/index.html`
 - [x] **Agenda merge conflict resolved (2026-09-03)**: Resolved merge conflict in `agenda/index.html` after main had additional Zeldzaam Mooi entries (Leeuwarden 20 sep, Zutphen 25 okt). Kept chronological order with all four markets plus Swan Market Utrecht.
 - [x] **Added Swan Market Utrecht (2026-09-03)**: Added Swan Market Utrecht to `agenda/index.html` — zondag 22 november 2026, 11:00–17:00, Vredenburg Utrecht. URL: https://www.swanmarket.nl/agenda-events/...
@@ -88,6 +89,7 @@ python3 -m http.server 8000
 
 | Date | Changes |
 |------|---------|
+| 2026-10-19 | Added `ekster-statisch.svg`, a non-animated copy of the logo with its eye open; validated SVG XML structure |
 | Initial | Template created with base Next.js setup |
 | Previous | Built full Curious Magpie ceramics website (4 pages + components) |
 | 2026-02-22 | Converted from Next.js to plain static HTML/CSS for GitHub Pages hosting |
